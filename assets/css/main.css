@@ -871,7 +871,8 @@ section,
   }
 
   .hero .hero-img img {
-    width: 100%;
+    
+
   }
 }
 
@@ -995,7 +996,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+/* .hero img {
   position: absolute;
   inset: 0;
   display: block;
@@ -1004,7 +1005,7 @@ section,
   -o-object-fit: cover;
   object-fit: cover;
   z-index: 1;
-}
+} */
 
 .hero:before {
   content: "";
@@ -3245,7 +3246,14 @@ section,
     position: relative;
     left: -30%;
   }
+  
+  .header-img{
+    margin-left: 15%;
+  }
+
 }
+
+
 
 .strip{
   background: rgb(208,27,218);
